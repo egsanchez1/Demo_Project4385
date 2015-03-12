@@ -1,7 +1,7 @@
 // convert model and make into a title property
 function transform(model) {
 	//need to convert model to json object
-	var carObject = mode.toJSON();
+	var carObject = model.toJSON();
 	var output =
 	{
 		"title" : carObject.model + " by " + carObject.make,
